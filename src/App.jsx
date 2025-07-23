@@ -14,6 +14,7 @@ function App() {
     {
       path: '/', element: <Layout/> , children :[
       {path: '',element: <Home/>},
+      {path: 'Donuts_WebMaster',element: <Home/>},
       {path: 'Products',element: <Products/>},
       {path: 'categories',element: <Categories/>},
       {path: 'menu',element: <Menu/>},
