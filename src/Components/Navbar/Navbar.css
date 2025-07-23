@@ -1,0 +1,66 @@
+.custom-navbar {
+  background: linear-gradient(80deg, #ffc0cb 0%, #ffc068 100%);
+  transition: 0.3s ease;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #d63384;
+  transition:  0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #d63384;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #d63384;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.animated-navbar {
+  animation: fadeInDown 0.4s ease;
+}
+
+.logo .donut-icon {
+  display: inline-block;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
