@@ -6,6 +6,8 @@ import Products from './Components/Products/Products';
 import Categories from './Components/Categories/Categories';
 import Menu from './Components/Menu/Menu';
 import Home from './Components/Home/Home';
+import ContactUs from './Components/ContactUs/ContactUs';
+import About from './Components/About/About';
 
 function App() {
   
@@ -15,7 +17,9 @@ function App() {
       path: '/', element: <Layout/> , children :[
       {path: '',element: <Home/>},
       {path: 'Products',element: <Products/>},
+      {path: 'about',element: <About/>},
       {path: 'categories',element: <Categories/>},
+      { path: 'contact', element: <ContactUs/> },
       {path: 'menu',element: <Menu/>},
       {path: '*',element: <>
           <main className="d-flex justify-content-center align-items-center  bg-white px-3 py-5">
