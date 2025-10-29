@@ -12,7 +12,7 @@ export default function About() {
     <div
       style={{
         background: 'linear-gradient(to bottom right, #fff0f5, #ffe4e1)',
-        height: 'calc(100vh - 62px)',
+        height: 'h-auto',
         paddingTop: '60px',
         paddingBottom: '60px',
         fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",

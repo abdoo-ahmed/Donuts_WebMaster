@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
-import './Navbar.css'
+import React from "react";
+import { Link, useLocation } from "react-router-dom";
+import "./Navbar.css";
 
 export default function Navbar() {
   const location = useLocation();
@@ -24,30 +24,58 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className="collapse navbar-collapse animated-navbar" id="mainNavbar">
+        <div
+          className="collapse navbar-collapse animated-navbar"
+          id="mainNavbar"
+        >
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className={`nav-link me-2 ${location.pathname === '/products' ? 'active' : ''}`} to="/products">
+              <Link
+                className={`nav-link me-2 ${
+                  location.pathname === "/products" ? "active" : ""
+                }`}
+                to="/products"
+              >
                 Products
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link me-2 ${location.pathname === '/categories' ? 'active' : ''}`} to="/categories">
+              <Link
+                className={`nav-link me-2 ${
+                  location.pathname === "/categories" ? "active" : ""
+                }`}
+                to="/categories"
+              >
                 Categories
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link me-2 ${location.pathname === '/about' ? 'active' : ''}`} to="/about">
+              <Link
+                className={`nav-link me-2 ${
+                  location.pathname === "/about" ? "active" : ""
+                }`}
+                to="/about"
+              >
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link me-2 ${location.pathname === '/menu' ? 'active' : ''}`} to="/menu">
+              <Link
+                className={`nav-link me-2 ${
+                  location.pathname === "/menu" ? "active" : ""
+                }`}
+                to="/menu"
+              >
                 Menu
               </Link>
             </li>
             <li className="nav-item">
-              <Link className={`nav-link me-2 ${location.pathname === '/contact' ? 'active' : ''}`} to="/contact">
+              <Link
+                className={`nav-link me-2 ${
+                  location.pathname === "/contact" ? "active" : ""
+                }`}
+                to="/contact"
+              >
                 Contact Us
               </Link>
             </li>
@@ -55,5 +83,5 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
-  )
+  );
 }
