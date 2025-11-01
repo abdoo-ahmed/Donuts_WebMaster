@@ -32,18 +32,18 @@ The goal of this project is to provide a professional, modern, and dynamic coffe
 ---
 
 ## 📦 Installation & Setup  
-
+```bash
 # Clone the repository
 git clone https://github.com/abdoo-ahmed/Donuts_WebMaster
 
 # Navigate to the project folder
-cd dunkin-clone
+cd Donuts_WebMaster
 
 # Install dependencies
 npm install
 
 # Start the development server
-npm start
+npm run dev
 
 ---
 
