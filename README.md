@@ -33,7 +33,6 @@ The goal of this project is to provide a professional, modern, and dynamic coffe
 
 ## 📦 Installation & Setup  
 
-```bash
 # Clone the repository
 git clone https://github.com/abdoo-ahmed/Donuts_WebMaster
 
@@ -46,9 +45,9 @@ npm install
 # Start the development server
 npm start
 
+---
 
-
-🧩 Folder Structure
+## 🧩 Folder Structure
 
 src/
  ┣ About/
@@ -64,8 +63,8 @@ src/
  ┣ App.jsx
  ┣ index.js
 
+---
 
-
-🔗 Live Demo
+## 🔗 Live Demo
 
 👉 View the Live Website : https://abdoo-ahmed.github.io/Donuts_WebMaster/
